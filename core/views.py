@@ -3,6 +3,9 @@ from rest_framework import generics, permissions
 from rest_framework.response import Response
 from knox.models import AuthToken
 from .serializers import UserSerializer, RegisterSerializer
+from rest_framework import viewsets
+from core.models import Item
+from core.serializers import ItemSerializer
 
 # Register API
 class RegisterAPI(generics.GenericAPIView):
@@ -32,3 +35,8 @@ class LoginAPI(KnoxLoginView):
         user = serializer.validated_data['user']
         login(request, user)
         return super(LoginAPI, self).post(request, format=None)
+
+class ItemsViewsSet(viewsets.ModelViewSet):
+    """Exibindo todos os items"""
+    queryset = Item.objects.all()
+    serializer_class = ItemSerializer
