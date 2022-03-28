@@ -1,4 +1,5 @@
-from django.shortcuts import render
+from rest_framework.views import APIView 
+from rest_framework.response import Response
 from rest_framework import generics, permissions
 from rest_framework.response import Response
 from knox.models import AuthToken
@@ -34,7 +35,9 @@ class LoginAPI(KnoxLoginView):
         login(request, user)
         return super(LoginAPI, self).post(request, format=None)
 
-class ItemsViewsSet(viewsets.ModelViewSet):
-    """Exibindo todos os items"""
-    queryset = Item.objects.all()
-    serializer_class = ItemSerializer
+class ItemAPIView(APIView):
+    
+    def get(self, request):
+        items = Item.objects.all()
+        serializer = ItemSerializer(items, many=True)
+        return Response(serializer.data)
