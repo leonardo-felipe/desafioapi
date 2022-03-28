@@ -42,11 +42,9 @@ Estrutura da API
 * Para Windows
 > python -m venv venv
 
-* e para ativar a virtual env
-
-* Linux:
+* Ativar a virtual env no Linux:
 > source venv/bin/activate
-* Windows:
+* Ativar a virtual env no Windows:
 > venv\Scripts\activate
 
 * Instalar dependências
