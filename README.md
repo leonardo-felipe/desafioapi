@@ -2,7 +2,7 @@
    
 ## Desafio API
  
-... Estrutura
+Estrutura da API
 
 /admin     - Admin
 
