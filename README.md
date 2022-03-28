@@ -39,7 +39,7 @@ Estrutura da API
 * Criar Virutalenv
 * Para Linux/Mac:
 > python3 -m venv venv
-* Para Windwos
+* Para Windows
 > python -m venv venv
 
 * e para ativar a virtual env
