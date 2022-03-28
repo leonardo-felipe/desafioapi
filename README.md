@@ -21,7 +21,7 @@ Estrutura da API
 * Django==4.0.3
 * djangorestframework==3.13.1
 
-## Ruby Gems
+## Principais bibliotecas presentes no projeto
 * python-decouple==3.6
 * django-rest-knox==4.2.0
 
