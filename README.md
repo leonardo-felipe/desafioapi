@@ -56,6 +56,9 @@ Na raiz do projeto há um arquivo com nome .env.example, você precisará renome
 * Rodar o projeto
 > python manage.py runserver
 
+* Crie um super usuário para acessar o django-admin
+> python manage.py createsuperuser
+
   
 ## Autor
  
