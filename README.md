@@ -49,9 +49,13 @@ python manage.py runserver
 Estrutura
 
 /admin     - Admin
+
 /register  - Cadastro
+
 /login     - Login
+
 /logout    - Logout
+
 /items     - Lista de items
 
 
