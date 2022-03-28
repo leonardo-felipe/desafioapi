@@ -43,6 +43,7 @@ Estrutura da API
 > python -m venv venv
 
 * e para ativar a virtual env
+
 * Linux:
 > source venv/bin/activate
 * Windows:
