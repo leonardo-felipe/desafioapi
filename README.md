@@ -18,7 +18,7 @@ Estrutura da API
 ## Technologias utilizadas
  
 * Python version 3.10.3
-* Django==4.0.3
+* Django==3.2.12
 * djangorestframework==3.13.1
 
 ## Principais bibliotecas presentes no projeto
