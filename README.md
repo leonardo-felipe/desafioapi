@@ -1,5 +1,18 @@
 # desafioapi
  
+ Estrutura
+
+/admin     - Admin
+
+/register  - Cadastro
+
+/login     - Login
+
+/logout    - Logout
+
+/items     - Lista de items
+ 
+  
 Instalar Python 3.10.3 https://www.python.org/downloads/release/python-3103/
 
 Clonar o repositório
@@ -38,12 +51,8 @@ Variáveis de ambiente
 
 Na raiz do projeto há um arquivo com nome .env.example, você precisará renomeá-lo para .env ou criar outro arquivo .env e excluir o .env.example. As variáveis de ambiente serão enviados no e-mail de entrega do projeto. Basta copiá-las e colar no arquivo .env
 
-
 Rodar o projeto
 
 Digite o comando:
 
 python manage.py runserver
-
-
-
