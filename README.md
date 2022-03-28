@@ -15,16 +15,11 @@ Estrutura da API
 /items     - Lista de items
  
  
-## Technologias utilizadas
+## Principais tecnologias utilizadas
  
 * Python version 3.10.3
 * Django==3.2.12
 * djangorestframework==3.13.1
-
-## Principais bibliotecas presentes no projeto
-* python-decouple==3.6
-* django-rest-knox==4.2.0
-
  
 ## Getting started
  
