@@ -54,8 +54,12 @@ Estrutura da API
 
 Na raiz do projeto há um arquivo com nome .env.example, você precisará renomeá-lo para .env ou criar outro arquivo .env e excluir o .env.example. As variáveis de ambiente serão enviados no e-mail de entrega do projeto. Basta copiá-las e colar no arquivo .env
 
+* Migrations
+> python manage.py migrate
+
+
 * Rodar o projeto
->    python manage.py runserver
+> python manage.py runserver
 
   
 ## Autor
