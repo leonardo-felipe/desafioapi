@@ -27,7 +27,7 @@ Estrutura da API
 >    https://www.python.org/downloads/release/python-3103/
 
 * Clonar o repositório com git clone ou baixar no formato zip
->    https://github.com/leonardo-felipe/desafioapi.git
+> git clone https://github.com/leonardo-felipe/desafioapi.git
 
 * Ir até a pasta do projeto
 
