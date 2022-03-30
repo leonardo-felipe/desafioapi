@@ -26,7 +26,7 @@ Estrutura da API
 * Instalar Python 3.10.3
 >    https://www.python.org/downloads/release/python-3103/
 
-* Clonar o repositório git clone
+* Clonar o repositório com git clone ou baixar no formato zip
 >    https://github.com/leonardo-felipe/desafioapi.git
 
 * Ir até a pasta do projeto
