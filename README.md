@@ -21,7 +21,7 @@ Estrutura da API
 * Django==3.2.12
 * djangorestframework==3.13.1
  
-## Getting started
+## Instruções para instalar e rodar o projeto
  
 * Instalar Python 3.10.3
 >    https://www.python.org/downloads/release/python-3103/
